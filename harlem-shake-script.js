@@ -194,7 +194,7 @@
 
   for (i = 0; i < len; i++) {
     thisNode = allNodes[i];
-    if (withinBounds(thisNode)) {
+    if (isVisible(thisNode)) {
       allShakeableNodes.push(thisNode);
     }
   }
